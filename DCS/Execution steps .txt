@@ -1,0 +1,130 @@
+<<-------1.a---------->>
+
+Can be implemented in ubuntu as well as Windows...
+
+1) compile all the java code in terminal , using javac filename.java
+2) run the additionServer file using java additionServer and leave the terminal as it is..
+3) open new terminal and run subtractionServer file and leave terminal as it is
+4) open new terminal and run Server.java file 
+5) open new terminal and run client.java file
+
+<<-------Execution Complete------>>
+
+<<-------1.b---------->>
+
+Can be implemented in ubuntu as well as Windows...
+
+1) open terminal and write the command rmiregistry 5000
+2) open new Terminal and compile all the java codes...
+3) run MyServer file and then MyClient files in Seprate folders
+
+<<-------Execution Complete------>>
+
+<<-------2---------->>
+
+Implemented only in ubuntu
+
+for c program 
+1) mpicc -o a mpi.c
+2) mpirun -np 6 ./a
+
+
+
+for java program 
+
+1) first download mpj express ie. mpi jar file from the link
+
+2) javac -cp path of mpi jar filename.java
+
+3) path to mpjrun.sh found in bin folder -np 4 filename
+
+<<-------Execution Complete------>>
+
+
+<<-------3---------->>
+
+implemented in ubuntu...
+
+1) idlj -fall ReverseModule.idl
+2) javac *.java ReverseModule/*.java
+3) orbd -ORBInitialPort 1050&
+4) java ReverseServer -ORBInitialPort 1050 -ORBInitialHost localhost&
+
+<<-------Execution Complete------>>
+
+
+<<-------4---------->>
+
+compile java codes and run them...
+<<-------Execution Complete------>>
+
+
+<<-------5---------->>
+
+download Netbeans java EE edition as it contains GlassFish Server
+
+Follow the Steps given in this link
+https://netbeans.org/kb/docs/websvc/jax-ws.html 
+
+<<-------Execution Complete------>>
+
+
+<<-------6---------->>
+
+Implemented in eclipse Ubuntu only...
+1. Download the 2 Jar files javax.jms.jar for JMS and apache-activemq-4.1.1.jar for Apache ActiveMQ.
+2. Download Apache MQ and Install it using the Apache MQ Installation Link
+Links for Download and installation instruction:
+a. Jms http://www.java2s.com/Code/Jar/j/Downloadjavaxjmsjar.htm ……… [Jar file]
+b. Apache http://www.java2s.com/Code/Jar/a/Downloadapacheactivemq411jar.htm [Jar file]
+c. Download - http://activemq.apache.org/activemq-5158-release.html ……….[ApacheMQ Download link]
+d. Install -
+https://docs.wso2.com/display/BAM200/Installing+Apache+ActiveMQ+on+Linux
+…………. [Apache MQ Installation Instructions]
+e. Concept - https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c
+Steps to execute:
+1. Create a Publisher.java file and copy paste the Publisher code
+2. Create a Subscriber.java file and copy paste the Subscriber code
+5. Add external jars
+a. Right Click on Project in eclipse package explorer
+b. Go to Build Path
+c. Select Configure Build Path
+d. Add external jars
+e. Select both the downloaded jars from the first step
+6. Run activemq with the following command:
+sudo sh active start
+7. Run the publisher code and pin console for publisher
+8. Run Subscriber
+
+<<-------Execution Complete------>>
+
+
+<<-------7---------->>
+
+implemented in windows...
+preRequisit
+
+install python properly 
+
+C:\Users\Anurag>python --version
+
+C:\Users\Anurag>pip --version
+
+
+1) create a folder and place all the json python and html files in it..
+2) pip install virtualenv env
+3) python -m pip install --user virtualenv
+4) python -m virtualenv env
+5) .\env\Scripts\activate
+6) you will see that env is the starting words this means virtual environment is created
+7) pip install flask
+8) pip install pandas
+
+9) go in env folder newly Created 
+
+10) python app.py
+
+<<-------Execution Complete------>>
+
+
+<<==============================================all the Best===========================================>>
